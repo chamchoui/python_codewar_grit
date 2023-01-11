@@ -1,4 +1,4 @@
-Bit Counting
+"""Bit Counting
 Definition
 
 Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number.
@@ -13,13 +13,13 @@ prerequisite:
   bin() -> https://www.programiz.com/python-programming/methods/built-in/bin
   count()-> https://www.w3schools.com/python/ref_list_count.asp
 
-Given code
+Given code"""
 
 def count_bits(n):
   pass
   
   
-Solution
+#Solution
 
 def count_bits(n):
   return bit(n).count("1")
